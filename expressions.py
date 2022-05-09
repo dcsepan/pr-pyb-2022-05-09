@@ -1,6 +1,6 @@
 # Operátor = műveleti jel 
 # Operandus
-
+print("teszt")
 print(6+6) # Két operandusú operátor
 print(8 * 6)
 print (8 / 6)
