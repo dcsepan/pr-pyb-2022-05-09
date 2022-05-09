@@ -49,3 +49,6 @@ age = age * 2
 print (age)
 
 print("a" *10)
+
+high = 169 
+print(high + 12)
