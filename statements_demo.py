@@ -11,19 +11,20 @@ for i in range(5): # Feltételeket és ciklusokat egymásba lehet ágyazni
 #print(line)
 #print("\n")
 
-#print("\n")
-#content = ""
-#for i in range (1,11):
-  #  for j in range (1,11):
-     #   result = i * j
-      #  line += str(result)
-      #  if result < 10:
-       #     content += "  "
-      #  elif result < 100:
-      #      content += " "
-       #     content += str(result)
-    #content += "\n"
-#print(content)
+print("\n")
+content = ""
+for i in range (1,11):
+    for j in range (1,11):
+        result = i * j
+        content += str(result)
+        if result < 10:
+            content += " "
+            content += str(result)
+        elif result < 100:
+            content += "  "
+            content += str(result)
+        content += "\n"
+print(content)
 
 print("\n")
 # Hozz létre egy listát, mely egész számokat tartalmaz.
@@ -42,6 +43,18 @@ for number in numbers:
     if (number > 0) : 
         sum += number
 print(sum)
+
+# Hozz létre egy listát mely + és - számokat tartalmaz, add össze a számok abszolult értékét.
+numbers = [42,-2,15,-8,10,9,432,-500]
+sum = 0
+x= -1
+for number in numbers:
+    if (number < 0) : 
+        sum += (number * x)
+    else:
+        sum += number
+print(sum)
+
 
 
 
