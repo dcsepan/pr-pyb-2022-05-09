@@ -57,3 +57,7 @@ for month in months:
 print("5. Feladat vége!")
 print("\n")
 
+#Bónusz, anyiszor íratja ki ahány karakter a szó
+word = "almakörte"
+for character in word:
+    print(word)
