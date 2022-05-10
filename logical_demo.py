@@ -39,6 +39,8 @@ print(5 > 2 or 10 < 2) #True a kettő eredményét megnézi, és utána True+Fal
 print(True and True)
 print(False and True)
 print(False and False)
-
-
+print("\n")
+# Páros vagy páratlan eldöntése 
+number = 7
+print(number % 2 == 0)
 
